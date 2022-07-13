@@ -12,12 +12,17 @@ A ideia é, ao final do projeto, ter um app com as seguintes funcionalidades:
 
 ## 🔨 Funcionalidades do projeto
 
+<<<<<<< HEAD
 Na v1.0 era possível apenas inserir o nome dos jogadores e registrar sua pontuação:
+=======
+Na v1.0 é possível inserir o nome dos jogadores e registrar sua pontuação.
+>>>>>>> 5d85780d51159397db71108ad70b69268f3bfb32
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/99735564/178328130-7c4854ae-d680-45ba-9564-cadfee5bd82a.png" width="500px"/>
 </div>
 
+<<<<<<< HEAD
 Na v1.01 foram inseridos mais dois campos destinados a contagem de rebotes e assistências:
 
 <div align="center">
@@ -26,4 +31,8 @@ Na v1.01 foram inseridos mais dois campos destinados a contagem de rebotes e ass
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- `Funcionalidade 1`: Inserir jogadores e realizar contagem de pontos na partida.
+=======
+## ✔️ Técnicas e tecnologias utilizadas
+
+>>>>>>> 5d85780d51159397db71108ad70b69268f3bfb32
+- `Funcionalidade 1`: Inserir jogadores e realizar contagem individual de pontos, rebotes e assistências na partida.
