@@ -16,8 +16,11 @@
 
 .header {
   display: flex;
+  flex-direction: column;
   background-color: #0000CD;
-  width: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
@@ -27,7 +30,7 @@
 
 .main-container {
   background-color: #4169E1;
-  width: 50%;
+  width: 70%;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
@@ -39,7 +42,7 @@
   text-align: center;
 }
 
-.add-item-box {
+.add-player-box {
   background: #ADD8E6;
   color: #696969;
   margin-top: 1em;
@@ -50,11 +53,11 @@
   padding: 5px;
 }
 
-.add-item-box svg {
+.add-player-box svg {
   margin: 5px;
 }
 
-.add-item-input {
+.add-player-input {
   box-sizing: border-box;
   border: none;
   background: transparent;
@@ -70,12 +73,12 @@ input:focus {
   outline: 0;
 }
 
-.item-list {
+.player-list {
   display: flex;
   flex-direction: column;
 }
 
-.item-container {
+.player-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,37 +86,17 @@ input:focus {
   border-bottom: 1px #fbc1bb solid;
 }
 
-.item-name {
-  cursor: pointer;
-}
-
-.item-name svg {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.item-action-buttons {
-  /* width: 30%; */
-  display: flex;
-  justify-content: space-between;
-}
-
-.remove-button {
-  color: white;
-  background-color: red;
-}
-
 .total {
   float: right;
   padding: 10px;
 }
 
-.quantity {
+.stats {
   display: flex;
   align-items: center;
   border: none;
   background: white;
-  border-radius: 50px;
+  border-radius: 30px;
   font-size: 12px;
   color: #000000;
   min-width: 70px;
